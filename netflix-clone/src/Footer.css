@@ -1,0 +1,21 @@
+.footer {
+	border-top: rgb(61, 49, 49) solid 8px;
+	margin-top: 50px;
+	color: hsl(0, 50%, 97%);
+	opacity: 0.7;
+	height: auto;
+}
+.footer_listes {
+	/* justify-content: center; */
+
+	list-style: none;
+	line-height: 1.8rem;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+    
+
+.nati{
+    color: #50E4FE;
+}
