@@ -27,7 +27,7 @@ function Banner() {
 	} // this part use for to minimize the description ...
 	return (
 		<section className="row fluid-container">
-			<div className="col-1 bg-black text-white mt-5 pt-5 text-center fs-2 position-fixed search ">
+			<div className="col-1 bg-black text-white mt-5 pt-5 text-center fs-2 position-fixed search d-none d-sm-block  ">
 				<p>
 					<SearchIcon />
 				</p>
@@ -35,7 +35,7 @@ function Banner() {
 					<HomeIcon />
 				</p>
 				<p>
-					<MovingIcon c />
+					<MovingIcon />
 				</p>
 				<p>
 					<TvIcon />
@@ -47,17 +47,13 @@ function Banner() {
 			<header
 				className="bannerr "
 				style={{
-					backgroundSize: "cover",
 					backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie.backdrop_path}")`,
-					backgroundPosition: "center top",
-					marginLeft: "150px",
 				}}
 			>
-				<div className="bannerr__contents">
+				<div className="bannerr__contents col-12 col-sm-11">
 					<h1 className="bannerr__title">
 						{movie?.title || movie?.name || movie.original_name}
 					</h1>
-					<div className="search"></div>
 
 					<div className="bannerr__buttons">
 						<button className="bannerr__button">Play</button>

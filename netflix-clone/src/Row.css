@@ -34,3 +34,14 @@
     transform: scale(1.09);
     opacity: 1;
 }
+
+@media (max-width: 576px) {
+    .roww{margin-left: 0px;
+
+    }
+    .roww__posters{
+        padding-left: 0px;
+    }
+    
+    
+}

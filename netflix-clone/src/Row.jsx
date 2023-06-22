@@ -45,7 +45,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
 	};
 	return (
 		<>
-			
+			<section >
 				<div className="roww">
 					<h3>{title}</h3>
 				</div>
@@ -65,7 +65,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
 				<div style={{ padding: "40px" }}>
 					{trailerUrl && <Youtube videoId={trailerUrl} opts={opts} />}
 				</div>
-			
+			</section>
 		</>
 	);
 }
